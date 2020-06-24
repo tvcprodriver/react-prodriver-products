@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2015",
+    "jsx": "react",
+    "rootDir": "src",
+    "outDir": "target",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "filesGlob": [
+    "typings/index.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "node_modules/typescript/lib/lib.es6.d.ts"
+  ],
+  "exclude": [
+    "target",
+    "dist",
+    "node_modules",
+    "__tests__"
+  ],
+  "types": [
+    "node",
+    "webpack",
+    "react",
+    "react-dom",
+    "reactstrap"
+  ],
+  "include": [
+    "**/*.ts"
+  ],
+  "compileOnSave": true
+}
